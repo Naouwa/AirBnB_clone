@@ -39,7 +39,7 @@ class TestCity(unittest.TestCase):
         self.assertIn('created_at', city_dict)
         self.assertIn('updated_at', city_dict)
         self.assertIn('state_id', city_dict)
-        self.assertIn('name'. city_dict)
+        self.assertIn('name', city_dict)
 
     def test_no_args_instantiates(self):
         """Test the City instantiation with no arguments"""

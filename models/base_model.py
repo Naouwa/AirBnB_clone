@@ -10,7 +10,7 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs):
         """Initialzing the BaseModel and its public instances"""
-        date_fromat = "%Y-%m-%dT%H:%M:%S.%f"
+        date_format = "%Y-%m-%dT%H:%M:%S.%f"
         self.id = str(uuid4())
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
